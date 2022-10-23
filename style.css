@@ -1,0 +1,116 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #7fa2c3;
+    color: rgb(37, 38, 70);
+    font-size: 30px;
+    font-family: 'Pacifico';
+  }
+  .body{
+    margin:0;
+    padding:0px;
+  }
+.descriere {
+    margin:0;
+    padding:0px;
+   text-align: center;
+   font-family:'Pacifico';
+   font-family: 'Caveat Brush', cursive;
+   font-size: 30px;
+   color:rgb(55, 64, 72);
+
+}
+
+.descriere_2{
+    
+    background: #767a7e;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+  
+}
+
+.descriere_2 img{
+    display: inline; 
+    text-align: left;
+    width: 100px;
+    height: auto;
+ 
+}
+.descriere_2 h2{
+    display: inline; 
+}
+
+ul.a {
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  ul.b {
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+.descriere img {
+    border-radius: 50%;
+    
+  }
+  
+.get_in_touch{
+  
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+
+}
+
+.button{
+    position: relative;
+    background-color: #7fa2c3;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 12px;
+}
+
+.button:hover{
+    background-color: #465a6d;
+}
+
+.button:after {
+    content: "";
+    background: #d6caca;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }  
+  .footer{
+    background: #767a7e;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+  }
+
+  .footer.link{
+    text-decoration: none;
+    color:rgb(55, 64, 72)
+  }
